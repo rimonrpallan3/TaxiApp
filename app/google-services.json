@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "722960426570",
+    "firebase_url": "https://parkingapp-ef136.firebaseio.com",
+    "project_id": "parkingapp-ef136",
+    "storage_bucket": "parkingapp-ef136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722960426570:android:5e47ce137e230d2b",
+        "android_client_info": {
+          "package_name": "com.project.parkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722960426570-463j0k8oko3vs6fa91rf40ga9bsci0l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.parkingapp",
+            "certificate_hash": "cbba3ec151b1c2e0f229efa01997bb6354483a88"
+          }
+        },
+        {
+          "client_id": "722960426570-pe5l6c8lqps8mjga1v7cni73ml0m3buk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1yzlycDHKBFd0f9ciyFzh-Dhl-XAAX4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722960426570-pe5l6c8lqps8mjga1v7cni73ml0m3buk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722960426570:android:47f7cb3412df33ae",
+        "android_client_info": {
+          "package_name": "metrotaxi.project.in.metrotaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722960426570-pe5l6c8lqps8mjga1v7cni73ml0m3buk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1yzlycDHKBFd0f9ciyFzh-Dhl-XAAX4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

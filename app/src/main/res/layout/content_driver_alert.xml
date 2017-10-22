@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="60dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/fromTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/toTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/fromTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/userTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User:"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/toTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/userTextView"
+        android:text="Phone Number:" />
+
+    <TextView
+        android:id="@+id/acceptTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"
+        android:text="Accept"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/fromTextView"
+        android:layout_toEndOf="@+id/fromTextView" />
+
+    <TextView
+        android:id="@+id/rejectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"
+        android:text="Reject"
+        android:layout_below="@+id/acceptTextView"
+        android:layout_alignRight="@+id/acceptTextView"
+        android:layout_alignEnd="@+id/acceptTextView"
+        android:layout_marginTop="36dp" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/distTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/cashTextView"
+        android:layout_alignBottom="@+id/cashTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/cashTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/phoneTextView"
+        android:layout_alignLeft="@+id/phoneTextView"
+        android:layout_alignStart="@+id/phoneTextView"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

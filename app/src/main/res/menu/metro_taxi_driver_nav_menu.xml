@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_driver_trip_history"
+            android:title="Trip History" />
+        <item
+            android:id="@+id/nav_driver_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_driver_current_trip"
+            android:title="Current Trip" />
+        <item
+            android:id="@+id/nav_driver_logout"
+            android:title="Logout" />
+    </group>
+</menu>

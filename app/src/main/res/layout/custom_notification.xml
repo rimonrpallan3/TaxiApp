@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/driverTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="13dp"
+        android:text="Driver Name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/driverImageView"
+        android:layout_toEndOf="@+id/driverImageView" />
+
+
+    <TextView
+        android:id="@+id/vehicleNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KL7A3976"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/driverTextView"
+        android:layout_alignLeft="@+id/driverTextView"
+        android:layout_alignStart="@+id/driverTextView" />
+
+    <TextView
+        android:id="@+id/contactTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9999999999"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_alignBaseline="@+id/vehicleNumberTextView"
+        android:layout_alignBottom="@+id/vehicleNumberTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <ImageView
+        android:id="@+id/driverImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/profile_pic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RatingBar
+        style="?android:attr/ratingBarStyleSmall"
+        android:id="@+id/ratingBar"
+        android:numStars="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/driverImageView"
+        android:layout_alignRight="@+id/driverTextView"
+        android:layout_alignEnd="@+id/driverTextView"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/driverLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:text="Driver Location"
+        android:layout_alignTop="@+id/ratingBar"
+        android:layout_alignRight="@+id/contactTextView"
+        android:layout_alignEnd="@+id/contactTextView" />
+
+</RelativeLayout>
