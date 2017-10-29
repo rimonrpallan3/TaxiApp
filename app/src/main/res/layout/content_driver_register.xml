@@ -46,6 +46,8 @@
                     android:hint="Name"
                     android:inputType="textPersonName"
                     android:padding="10dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
             </android.support.design.widget.TextInputLayout>
@@ -60,6 +62,8 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Username"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:inputType="textPersonName"
                     android:padding="10dp"
                     android:textColor="@android:color/white"
@@ -77,6 +81,8 @@
                     android:ems="10"
                     android:hint="Password"
                     android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:padding="10dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
@@ -92,6 +98,8 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Email Id"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:padding="10dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
@@ -107,7 +115,10 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Mobile Number"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:padding="10dp"
+                    android:inputType="number"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
             </android.support.design.widget.TextInputLayout>
@@ -123,6 +134,8 @@
                     android:ems="10"
                     android:hint="Vehicle Number"
                     android:padding="10dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
             </android.support.design.widget.TextInputLayout>
@@ -136,6 +149,8 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Browse License"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:padding="10dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
@@ -150,6 +165,8 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Browse RC"
+                    android:maxLines="1"
+                    android:singleLine="true"
                     android:padding="10dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />

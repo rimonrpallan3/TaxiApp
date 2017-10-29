@@ -12,7 +12,7 @@ public class RetrofitClient {
     private static OkHttpClient client = new OkHttpClient.Builder().connectTimeout(300, TimeUnit.SECONDS).readTimeout(300, TimeUnit.SECONDS).build();
     public static Retrofit getRetrofitClient() {
         if (retrofit == null) {
-            retrofit = new Retrofit.Builder().baseUrl("http://192.168.43.171:8084/MetroTaxi/")
+            retrofit = new Retrofit.Builder().baseUrl("http://192.168.1.36:8080/MetroTaxi/")
                     .client(client)
                     .addConverterFactory(GsonConverterFactory.create()).build();
         }
