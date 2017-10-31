@@ -116,13 +116,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         if (res.getUserType().equals("user")) {
                             Intent intent = new Intent(LoginActivity.this, TripActivity.class);
                             startActivity(intent);
-                        } else {
+                        } else if(res.getUserType().equals("user")) {
                             Intent intent = new Intent(LoginActivity.this, DriverSettingsActivity.class);
                             startActivity(intent);
                         }
                         finish();
                     } else {
-                        Toast.makeText(LoginActivity.this, res.getResponse(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "Invalid UserName and Password", Toast.LENGTH_SHORT).show();
                     }
                 }
 
