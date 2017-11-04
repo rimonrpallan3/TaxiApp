@@ -135,6 +135,7 @@ public class DriverRegisterActivity extends AppCompatActivity implements View.On
 
     @Override
     public void onClick(View v) {
+        System.out.println("Register Button Clicked ");
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
             register();
         } else {
