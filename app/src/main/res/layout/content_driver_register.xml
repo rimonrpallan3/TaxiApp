@@ -149,8 +149,6 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Browse License"
-                    android:maxLines="1"
-                    android:singleLine="true"
                     android:padding="10dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
@@ -165,8 +163,6 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Browse RC"
-                    android:maxLines="1"
-                    android:singleLine="true"
                     android:padding="10dp"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />
