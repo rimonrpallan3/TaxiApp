@@ -133,8 +133,8 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="Vehicle Number"
-                    android:padding="10dp"
                     android:maxLines="1"
+                    android:padding="10dp"
                     android:singleLine="true"
                     android:textColor="@android:color/white"
                     android:textColorHint="@android:color/white" />

@@ -116,7 +116,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         if (res.getUserType().equals("user")) {
                             Intent intent = new Intent(LoginActivity.this, TripActivity.class);
                             startActivity(intent);
-                        } else if(res.getUserType().equals("user")) {
+                        } else if(res.getUserType().equals("driver")) {
                             Intent intent = new Intent(LoginActivity.this, DriverSettingsActivity.class);
                             startActivity(intent);
                         }

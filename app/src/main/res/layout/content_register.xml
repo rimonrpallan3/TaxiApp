@@ -37,6 +37,8 @@
                 android:hint="Name"
                 android:inputType="textPersonName"
                 android:padding="10dp"
+                android:lines="1"
+                android:singleLine="true"
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white" />
         </android.support.design.widget.TextInputLayout>
@@ -53,6 +55,8 @@
                 android:hint="Username"
                 android:inputType="textPersonName"
                 android:padding="10dp"
+                android:lines="1"
+                android:singleLine="true"
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white" />
         </android.support.design.widget.TextInputLayout>
@@ -67,6 +71,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Password"
+                android:lines="1"
+                android:singleLine="true"
                 android:inputType="textPassword"
                 android:padding="10dp"
                 android:textColor="@android:color/white"
@@ -83,6 +89,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Email Id"
+                android:lines="1"
+                android:singleLine="true"
                 android:padding="10dp"
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white" />
@@ -98,6 +106,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Mobile Number"
+                android:lines="1"
+                android:singleLine="true"
                 android:padding="10dp"
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white" />
@@ -113,6 +123,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Address"
+                android:lines="1"
+                android:singleLine="true"
                 android:padding="10dp"
                 android:textColor="@android:color/white"
                 android:textColorHint="@android:color/white" />
