@@ -13,7 +13,7 @@
             android:title="Trip History" />
         <item
             android:id="@+id/nav_settings"
-            android:title="Settings" />
+            android:title="Update profile" />
         <item
             android:id="@+id/nav_recharge"
             android:title="Recharge"
