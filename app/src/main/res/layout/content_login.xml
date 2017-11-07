@@ -76,6 +76,7 @@
             android:layout_width="121dp"
             android:layout_height="19dp"
             android:layout_marginTop="18dp"
+            android:visibility="gone"
             android:text="forgot password?"
             android:textColor="@color/colorAccent"
             android:textStyle="bold" />
